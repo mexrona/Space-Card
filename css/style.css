@@ -36,8 +36,10 @@ canvas {
 
 .inner {
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 300px;
 
     transition: 3s;
 
